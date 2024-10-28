@@ -18,10 +18,7 @@ var searchRange = function(nums, target) {
       } else {
         left = mid + 1
       }
-      console.log(mid)
     }
-
-    console.log(left, right)
 
     if (start !== -1) {
       while (start > 0 && nums[start -1] === target) {
